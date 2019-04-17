@@ -9,11 +9,21 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="assets/css/Article-Clean.css">
+    <link rel="stylesheet" href="assets/css/Data-Table.css">
+    <link rel="stylesheet" href="assets/css/Data-Table.css">
     <link rel="stylesheet" href="assets/css/digitalplatform.css">
     <link rel="stylesheet" href="assets/css/Features-Blue.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Features-Clean.css">
     <link rel="stylesheet" href="assets/css/Header-Blue.css">
     <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean-1.css">
     <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/jobdescription.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean-1.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -21,79 +31,524 @@
 </head>
 
 <body>
-    <div>
-        <div>
-            <nav class="navbar navbar-default navigation-clean-search" style="padding:40px 0px;">
-                <div class="container">
-                    <div class="navbar-header"><a class="navbar-brand" href="#">Career Resources</a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
-                    <div
-                        class="collapse navbar-collapse" id="navcol-1">
-                        <ul class="nav navbar-nav">
-                            <li class="active" role="presentation"><a href="#">Job Search Strategies</a></li>
-                            <li role="presentation"><a href="#">Resume</a></li>
-                            <li role="presentation"><a href="#">Interview</a></li>
-                        </ul>
-                        <form class="navbar-form navbar-left" target="_self">
-                            <div class="form-group"><label class="control-label" for="search-field"><i class="glyphicon glyphicon-search"></i></label><input class="form-control search-field" type="search" name="search" id="search-field"></div>
-                        </form>
-                </div>
+    <div class="highlight-clean">
+        <div class="container">
+            <div class="intro">
+                <h1 class="text-center">Career Resources</h1>
+            </div>
+            <div class="buttons"><button class="btn btn-default" type="button">Job Search Strategies</button><a class="btn btn-primary" role="button" href="#">Resume</a><button class="btn btn-default" type="button">Interview</button></div>
         </div>
-        </nav>
+    </div>
+    <div>
         <div class="container hero">
             <div class="row">
-                <div class="col-lg-5 col-md-6" style="margin:80px 0px;">
+                <div class="col-lg-6 col-md-6" style="margin:30px 0px;">
                     <div class="video-container"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/MCLftfZ7zUU?showinfo=0&amp;rel=0"></iframe></div>
                 </div>
-                <div class="col-lg-7 col-md-6" style="margin:20px 0px;">
+                <div class="col-lg-6 col-md-6" style="margin:30px 0px;">
                     <section></section>
                     <article></article>
-                    <h1 class="text-center" style="padding:0px;margin:10px 0px 5px;">How to Get Your Résumé noticed?</h1>
-                    <p class="lead text-center" style="padding:20px;margin:10px 0px 5px;">With the huge volume of resumes that organisations receive, 98% of Fortune 500 companies are utilising Application Tracking Systems (ATS) to filter and find their star candidate.<br><br>Your first goal in building an impressive resume
-                        is to beat the robots. Next, grab your hiring manager’s attention within that one minute frame as 62.1% of your employers do not spend more than that time to review your resume. Lastly, create a strong personal brand that aligns
-                        with what the organisation looks for.&nbsp;<br><br><strong>Embark on a journey with Rachel to craft your impressive resume.</strong></p>
+                    <h2 class="text-center" style="padding:0px;margin:10px 0px 5px;">How to Get Your Résumé noticed?</h2>
+                    <p class="lead text-center" style="padding:20px;margin:10px 0px 5px;">It may be tempting to come up with a one size fits all resume for all your applications, but avoid this at all cost. Seasoned recruiters or applicant assessment software spend no more than 6 seconds scanning resumes that fit the need
+                        of the job on offer. <br>An effective resume communicates your skills, qualities and achievements. Be concise and selectively highlight key skills, outstanding qualities and achievements about yourself that are most relevant to
+                        the job.&nbsp;<br></p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="header-blue"></div>
-    </div>
-    <div style="padding:20px;">
+    <div style="padding:20px 0px 60px 0px;background-color:#dfe8ee;">
         <div class="container">
-            <div>
-                <h2 class="text-center">Sharpen Your Resume in 4 Steps</h2>
+            <div class="row">
+                <div class="col-xs-8 col-xs-push-2 col-xs-pull-2" style="margin:20px 0px;">
+                    <div>
+                        <h2 class="text-center">Sharpen Your Resume in 4 Steps</h2>
+                        <div class="intro">
+                            <p class="lead text-center">Here are 4 steps to optimise your resume so that your competencies and results stan out.&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row">
                 <div class="col-md-3">
                     <h1 class="text-center">01</h1>
-                    <p class="text-center"><a href="https://nuscfglnd.github.io/career/resume.html#content4-d"><strong>Identify the Skills Required</strong></a></p>
+                    <p class="text-center" style="font-size:16px;"><strong>Analyse the Job Advertisement</strong></p>
+                    <p class="text-center">Refer to the job description to identify the skills the hiring manager is looking for</p>
                 </div>
                 <div class="col-md-3">
                     <h1 class="text-center">02</h1>
-                    <p class="text-center"><a href="https://nuscfglnd.github.io/career/resume.html#content4-p"><strong>List Your Experiences</strong></a><br></p>
+                    <p class="text-center" style="font-size:16px;"><strong>List Your Experiences and Skills</strong></p>
+                    <p class="text-center">Make use of powerful action verbs to link your experiences and accomplishments to the needs of the position </p>
                 </div>
                 <div class="col-md-3">
                     <h1 class="text-center">03</h1>
-                    <p class="text-center"><a href="https://nuscfglnd.github.io/career/resume.html#content4-14"><strong>C.A.R. Statements</strong></a><br></p>
+                    <p class="text-center" style="font-size:16px;"><strong>Be Results-Oriented</strong></p>
+                    <p class="text-center">Use objective and quantifiable means to prove your results (Competency + Action = Result) </p>
                 </div>
                 <div class="col-md-3">
                     <h1 class="text-center">04</h1>
-                    <p class="text-center"><a href="https://nuscfglnd.github.io/career/resume.html#content4-d"><strong>Identify the Skills Required</strong></a></p>
+                    <p class="text-center" style="font-size:16px;"><strong>Optimise Your Resume</strong></p>
+                    <p class="text-center">Structure your resume in an easy to read format </p>
                 </div>
             </div>
         </div>
     </div>
     <div class="highlight-blue" style="background-color:rgb(15,58,122);">
         <div class="container">
-            <div class="intro">
-                <h2 class="text-center">01 Identify the Skills Required</h2>
-                <p class="text-center">As you begin to put your experience together, identify what your hiring managers look out for. Employers are always looking to hire candidates who have the right set of transferable and technical skills that match the role they are hiring
-                    for. Since you are trying to get noticed within that minute, think about what skillsets you might demonstrate in your resume.&nbsp;</p>
+            <div class="row">
+                <div class="col-xs-8 col-xs-push-2 col-xs-pull-2" style="margin:20px 0px;">
+                    <div>
+                        <h2 class="text-center">01 Analyse the Job Advertisement</h2>
+                    </div>
+                    <div class="intro">
+                        <p class="lead text-center">Pay close attention to the job description and use competency verbs explicitly stated and inferred from the job description. Some of these competencies are commonly referred to as technical skills, while some of them are transferable
+                            skills. In addition, read between the lines and identify other skills that can be inferred.<br></p>
+                    </div>
+                    <div class="buttons"><a class="btn btn-primary" role="button" href="#techskill">Technical Skills</a><a class="btn btn-primary" role="button" href="#transskill">TRANSFERABLE Skills</a></div>
+                </div>
             </div>
-            <div class="buttons"><a class="btn btn-primary" role="button" href="#">Primary</a></div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6" style="margin:80px 0px;">
+                    <div>
+                        <h2 class="text-center">Let's review a sample job description</h2>
+                        <div class="intro">
+                            <p class="lead text-center">In the following internship posting, hover across the highlighted text to identify the <span class="link-2">technical (green)</span> and <span class="link-1">transferable skills (pink)</span>. 
+</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" style="margin:20px 0px;">
+                    <div id="jd-container">
+                        <div class="jd-profile"><span>S</span></div>
+                        <div class="jd-name">
+                            <p style="font-size: 1.2em; font-weight: bold;">Internship for Digital Business Services Southeast Asia</p>
+                        </div>
+                    </div>
+                    <h3>Responsibilities</h3>
+                    <div id="jdlink">
+                        <ul>
+                            <li>Support change leaders to <span rel="tooltip" title="Technical Skills - Change Management" class="link-1">drive continuous improvement</span> programs that are impactful in how we deliver services to our customers
+</li>
+                            <li>Assist in the coordination, planning and management of initiatives with the focus on capturing status and supporting metrics, and communicating issues, risks and roadblocksAssist in the coordination, planning and management of initiatives with the focus on <span rel="tooltip" title="Transferable Skills - Data-centric" class="link-2">capturing status and supporting metrics</span>, and communicating issues, risks and roadblocks
+</li>
+                            <li>Conduct analytical activities to provide insights for decision making</li>
+                            <li>Perform process improvement activities so that we can work better, smarter and faster</li>
+                            <li>Follow-up to ensure that all team members understand the assigned tasks and associated deliverable dates</li>
+                            <li>Assist in monitoring/controlling of task execution</li>
+                            <li>Establish reporting dashboards and provide regular status and issues to key stakeholders</li>
+                        </ul>
+                    </div>
+                    <h3>Skills &amp; Competencies</h3>
+                    <ul>
+                        <li>Ability to manage/coordinate tasks, project planning and execution</li>
+                        <li>Ability to provide status reporting</li>
+                        <li>Analytical skills and attentive to details and meticulous</li>
+                        <li>Active listening skills</li>
+                        <li>Agile, flexible and adaptable</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="features-boxed">
+        <div class="container">
+            <div class="row features">
+                <div class="col-lg-5 col-lg-push-1 col-md-5 col-md-push-1 col-sm-6 item">
+                    <div id="techskill" class="boxgrey">
+                        <h3 class="name">Technical Skills</h3>
+                        <p class="description" style="font-size:1.2em;">Technical skills refer to your knowledge and expertise required to perform the required<br>tasks or use specific tools in the role. These skills will vary across industries and functions.<br></p>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-lg-push-1 col-md-5 col-md-push-1 col-sm-6 item">
+                    <div id="transskill" class="boxgrey">
+                        <h3 class="name">Transferable Skills</h3>
+                        <p class="description" style="font-size:1.2em;">Transferable skills refer to "people skills" or "self-management" skills that can be applied across careers. Your transferable skills can enhance the technical skills that you bring to the job.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="intro">
+                        <p class="lead text-center">While looking at the job description, highlight the key skills the employer is looking for. In addition, read between the lines and identify other skills that can be inferred.<br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="features-boxed">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Examples</h2>
+            </div>
+            <div class="features-boxed">
+                <div class="row features col-container">
+                    <div class="col-md-4 item">
+                        <div class="boxgrey">
+                            <h3 class="name">Electrical Engineer</h3>
+                            <h4>Technical Skill</h4><span class="link-2">Sound Engineering Knowledge</span>
+                            <p><em>"Sound engineering knowledge in electrical field equipment (e.g. switchgears, transformers, protective relaying, generators, etc.)"</em></p>
+                            <h4>Transferable Skill</h4><span class="link-1">Public Speaking</span>
+                            <p><em>"Conduct technical training to share best practices in areas of expertise."</em><br></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item">
+                        <div class="boxgrey">
+                            <h3 class="name">Business Planning Analyst</h3>
+                            <h4>Technical Skill</h4><span class="link-2">Technology Infrastructure Time and Material Price Model Review</span>
+                            <p><em>"Drive monthly reviews with CTI APAC functional teams on T&amp;M expenses"</em><br></p>
+                            <h4>Transferable Skill</h4><span class="link-1">Communication</span>
+                            <p><em>"Managing vendor and reviewing contracts in large complex infrastructure environment"</em><br></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item">
+                        <div class="boxgrey">
+                            <h3 class="name">Project Management Specialist</h3>
+                            <h4>Technical Skill</h4><span class="link-2">Advanced Excel</span>
+                            <p><em>"Track order bookings, revenue recognition, OTD and contribution margin"</em><br></p>
+                            <h4>Transferable Skill</h4><span class="link-1">Collaboration</span>
+                            <p><em>"Work closely with Inquiry-To-Order (ITO) team to understand customer’s order requirements"</em><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="highlight-blue" style="background-color:rgb(15,58,122);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8 col-xs-push-2 col-xs-pull-2" style="margin:20px 0px;">
+                    <div>
+                        <h2 class="text-center">02 List Your Experiences and Skills</h2>
+                    </div>
+                    <div class="intro">
+                        <p class="lead text-center">Be selective and only showcase the relevant and useful ones to each specific role. Make use of verbs when listing your qualities and achievements. Include both your work experiences and Co-Curricular activities to show your interest
+                            and passion. This allows recruiters to figure out your suitability for the advertised role. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row" style="margin:20px;">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="intro">
+                        <p class="lead text-center">Most resumes have the following types of experiences listed. Look back at your last few years and identify experiences that fit those categories.<br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="photo-gallery">
+        <div class="container">
+            <div class="intro"></div>
+            <div class="row photos">
+                <div class="col-md-3 col-sm-3 item">
+                    <div class="imagebox"><a href="https://nus-csm.symplicity.com/"><img class="img-responsive" src="https://nuscfglnd.github.io/career/assets/images/background1.jpg"><span class="imagebox-desc">Work Experiences</span></a></div>
+                </div>
+                <div class="col-md-3 col-sm-3 item">
+                    <div class="imagebox"><a href="http://nus.edu.sg/cfg/employers/nus-global-internship-programme"><img class="img-responsive" src="https://nuscfglnd.github.io/career/assets/images/global-internship-programme-web-1-2000x1333.jpg"><span class="imagebox-desc">Global and Local Internships</span></a></div>
+                </div>
+                <div class="col-md-3 col-sm-3 item">
+                    <div class="imagebox"><a href="http://www.nus.edu.sg/gro/student-exchange.php"><img class="img-responsive" src="https://nuscfglnd.github.io/career/assets/images/background3.jpg"></a><span class="imagebox-desc">Overseas Exchange</span></div>
+                </div>
+                <div class="col-md-3 col-sm-3 item">
+                    <div class="imagebox"><a href="http://www.nus.edu.sg/osa/student-life/student-organisations-directory"><img class="img-responsive" src="https://nuscfglnd.github.io/career/assets/images/background4.jpg"></a><span class="imagebox-desc">Extra-Curricular Activities</span></div>
+                </div>
+                <div class="col-md-3 col-sm-3 item">
+                    <div class="imagebox"><a href="http://www.nus.edu.sg/osa/campus-living/residential-options/halls-of-residence"><img class="img-responsive" src="https://nuscfglnd.github.io/career/assets/images/background5.jpg"></a><span class="imagebox-desc">Hall Involvement</span></div>
+                </div>
+                <div class="col-md-3 col-sm-3 item">
+                    <div class="imagebox"><a><img class="img-responsive" src="https://nuscfglnd.github.io/career/assets/images/background6.jpg"></a><span class="imagebox-desc">Community Groups</span></div>
+                </div>
+                <div class="col-md-3 col-sm-3 item">
+                    <div class="imagebox"><a><img class="img-responsive" src="https://nuscfglnd.github.io/career/assets/images/background7.jpg"></a><span class="imagebox-desc">Hobbies</span></div>
+                </div>
+                <div class="col-md-3 col-sm-3 item">
+                    <div class="imagebox"><a><img class="img-responsive" src="https://nuscfglnd.github.io/career/assets/images/background8.jpg"></a><span class="imagebox-desc">Voluntary Work</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row" style="margin:20px;">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="intro">
+                        <p class="lead text-center">In which of these experiences did you demonstrate or acquire the skills you highlighted in the job description? Those are the experiences you must prioritize in your resume. <br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="highlight-blue" style="background-color:rgb(15,58,122);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8 col-xs-push-2 col-xs-pull-2" style="margin:20px 0px;">
+                    <div>
+                        <h2 class="text-center">03 Be Results-Oriented</h2>
+                    </div>
+                    <div class="intro">
+                        <p class="lead text-center">(Replace with text)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row" style="margin:20px;">
+                <div class="col-md-12">
+                    <div class="intro">
+                        <h2 class="text-center" style="padding:0px;margin:10px 0px 5px;">Let's compare the two resume descriptors</h2>
+                        <p class="lead text-center">Which descriptor would you prefer?<br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="features-boxed">
+        <div class="container">
+            <div class="intro"></div>
+            <div class="row features">
+                <div class="col-lg-5 col-lg-push-1 col-md-5 col-md-push-1 col-sm-6 item">
+                    <div class="boxgrey">
+                        <h3>A</h3>
+                        <p class="description"><strong>Ethoz Digital, Music and Marketing Assistant</strong></p>
+                        <ul>
+                            <li style="font-size:1.2em;">Systematically set up a customer database to manage the social account details of 800 Singtel mobile phone subscribers, including date of product updates and upgrades.</li>
+                            <li style="font-size:1.2em;">Recorded and analysed fast-changing music industry trends to generate recommended playlists for different target audiences by age groups.</li>
+                            <li style="font-size:1.2em;">Effectively persuaded more than 50% of existing customers to partciipate in trial subscriptions for Call Tones.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-lg-push-1 col-md-5 col-md-push-1 col-sm-6 item">
+                    <div class="boxgrey">
+                        <h3>B</h3>
+                        <p class="description"><strong>Part Time Tutor</strong></p>
+                        <ul>
+                            <li style="font-size:1.2em;">Taught English and Math lessons</li>
+                            <li style="font-size:1.2em;">Prepared and marked assessment papers and provided feedback</li>
+                            <li style="font-size:1.2em;">Guided students to discover their talents and interests</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row" style="margin:20px;">
+                <div class="col-md-12">
+                    <div class="intro">
+                        <h2 class="text-center" style="padding:0px;margin:10px 0px 5px;">A has a better resume descriptor</h2>
+                        <p class="lead text-center">Let's review the structure behind A's resume descriptor.<br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="intro">
+                        <p class="lead text-center boxgrey">Effectively persuaded more than 50% of existing customers to partciipate in trial subscriptions for Call Tones.<br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row" style="margin:20px;">
+                <div class="col-md-12">
+                    <div class="intro">
+                        <h2 class="text-center" style="padding:0px;margin:10px 0px 5px;">Here's how you can write your own C.A.R. statements</h2>
+                        <p class="lead text-center">-</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row" style="margin:20px;">
+                <div class="col-md-2 col-md-push-1 col-xs-2 col-xs-push-1">
+                    <div class="boxgrey2" style="background-color: #fff">
+                        <h2 class="text-center" style="padding:0px;margin:10px 0px 5px;color:rgb(15,58,122);font-size:3em;">C</h2>
+                    </div>
+                </div>
+                <div class="col-md-8 col-md-offset-1 col-xs-8 col-xs-offset-1">
+                    <div class="features-boxed">
+                        <div class="boxgrey2">
+                            <h3 class="name"><strong>Competencies - the skill</strong></h3>
+                            <p class="description" style="font-size:1.2em;">Opt for stronger competency verbs i.e. collaborated, initiated and avoid weaker verbs i.e. support, helped<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin:20px;">
+                <div class="col-md-2 col-md-push-1 col-xs-2 col-xs-push-1">
+                    <div class="boxgrey2" style="background-color: #fff">
+                        <h2 class="text-center" style="padding:0px;margin:10px 0px 5px;color:rgb(15,58,122);font-size:3em;">A</h2>
+                    </div>
+                </div>
+                <div class="col-md-8 col-md-offset-1 col-xs-8 col-xs-offset-1">
+                    <div class="features-boxed">
+                        <div class="boxgrey2">
+                            <h3 class="name"><strong>Actions - what you did</strong></h3>
+                            <p class="description" style="font-size:1.2em;">Explain who you have worked with and the tools that you have utilised to achieve the outcome<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin:20px;">
+                <div class="col-md-2 col-md-push-1 col-xs-2 col-xs-push-1">
+                    <div class="boxgrey2" style="background-color: #fff">
+                        <h2 class="text-center" style="padding:0px;margin:10px 0px 5px;color:rgb(15,58,122);font-size:3em;">R</h2>
+                    </div>
+                </div>
+                <div class="col-md-8 col-md-offset-1 col-xs-8 col-xs-offset-1">
+                    <div class="features-boxed">
+                        <div class="boxgrey2">
+                            <h3 class="name"><strong>Results - what you achieved</strong></h3>
+                            <p class="description" style="font-size:1.2em;">Describe your results through quantitative i.e. $, %, time, number of attendees or qualitative outcomes.<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row" style="margin:20px;">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="intro">
+                        <p class="lead text-center">This is how you can turn a poorly written descriptor into a well written descriptor to create impact<br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row" style="padding:20px;">
+                <div class="col-md-10 col-md-offset-1" style="font-size:1.2em;">
+                    <div class="intro"></div><table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Before</th>
+                <th>After</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="width: 30.0000%;">Update social media account</td>
+                <td style="width: 70.0000%;">Designed and introduced marketing collaterals such as customer interviews and product infographics on our social media account thereby increasing web traffic by 10%.</td>
+            </tr>
+            <tr>
+                <td style="width: 30.0000%;">Promote electronic goods</td>
+                <td style="width: 70.0000%;">Exceeded monthly sales target by 15% and was awarded the Best Sales Person of the Month.</td>
+            </tr>
+            <tr>
+                <td style="width: 30.0000%;">Support the marketing team</td>
+                <td style="width: 70.0000%;">Grew the customer base by implementing innovative public relations campaign with the marketing team to promote the latest digital products.</td>
+            </tr>
+  
+        </tbody>
+    </table></div>
+            </div>
+        </div>
+    </div>
+    <div class="highlight-blue" style="background-color:rgb(15,58,122);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8 col-xs-push-2 col-xs-pull-2" style="margin:20px 0px;">
+                    <div>
+                        <h2 class="text-center">04 Optimise Your Resume</h2>
+                    </div>
+                    <div class="intro">
+                        <p class="lead text-center">How you present your resume is as important as what is written on it. A well-formatted resume is easy on the eyes and allows the recruiter to quickly spot the competencies you have and the results you have achieved. Recruiters
+                            are quickly turned off by poorly formatted resumes and typos. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container hero">
+            <div class="row">
+                <div class="col-lg-5 col-md-5" style="margin:30px 0px;">
+                    <div>
+                        <div class="panel-group" role="tablist" aria-multiselectable="true" id="accordion-1">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-1" aria-expanded="true" href="#accordion-1 .item-1">Aesthetics</a></h4>
+                                </div>
+                                <div class="panel-collapse collapse in item-1" role="tabpanel">
+                                    <div class="panel-body" style="font-size:1.1em;">
+                                        <ol>
+                                            <li>Name and Contact Details</li>
+                                            <li>Education</li>
+                                            <li>Work Experience</li>
+                                            <li>CCA/External Projects</li>
+                                            <li>Additional Skills/Interests</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-1" aria-expanded="false" href="#accordion-1 .item-2">Sections within a Resume</a></h4>
+                                </div>
+                                <div class="panel-collapse collapse item-2" role="tabpanel">
+                                    <div class="panel-body" style="font-size:1.1em;">
+                                        <ul>
+                                            <li>One Page</li>
+                                            <li>All Dates in MMM YY format</li>
+                                            <li>All bullets to be properly aligned across the entire document</li>
+                                            <li>Black font with white background, balance of text and space</li>
+                                            <li>Simple, formal and readable font (Arial, Times New Roman, Verdana - Font Size: 11/12)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7" style="margin:30px 0px;">
+                    <div><a href="assets/img/ugresumelabel.png" data-lightbox="photos">&nbsp;<img src="assets/img/ugresumelabel.png" class="img-responsive"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="highlight-blue" style="background: linear-gradient(to top right, #ef4a38 0%, #ef7c00 100%);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8 col-xs-push-2 col-xs-pull-2" style="margin:20px 0px;">
+                    <div>
+                        <h2 class="text-center">Downloadable Templates</h2>
+                    </div>
+                    <div class="intro"></div>
+                    <div class="buttons"><a class="btn btn-primary" role="button" href="#">Undergraduate</a><a class="btn btn-primary" role="button" href="#">Postgraduate</a></div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="assets/js/jd.js"></script>
 </body>
 
 </html>
