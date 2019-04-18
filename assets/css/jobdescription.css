@@ -77,6 +77,16 @@
   background-color:#fff;
 }
 
+.link-3 {
+  color:#003D7C;
+  background-color:#d1e8ff;
+}
+
+.link-3:hover {
+  border-bottom:2px solid #003D7C;
+  background-color:#fff;
+}
+
 .jd-profile {
   width:50px;
   height:50px;

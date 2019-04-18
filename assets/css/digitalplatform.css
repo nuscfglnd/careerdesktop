@@ -95,3 +95,24 @@
   background-color:#eef4f7;
 }
 
+.maintitlenumber {
+  height:50px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.maintitletext {
+  height:50px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.vertical-align {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:row;
+}
+
