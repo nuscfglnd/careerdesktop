@@ -153,6 +153,7 @@ html {
 .productfeature {
   font-family:"Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   padding:30px;
+  margin-bottom:30px;
 }
 
 .productfeature h1 {
@@ -171,6 +172,7 @@ html {
   border-radius:5px;
   display:inline-block;
   position:relative;
+  margin-bottom:10px;
 }
 
 .card-1 {
@@ -218,5 +220,110 @@ html {
 .overviewbox p {
   font-weight:200;
   font-size:1.8em;
+}
+
+.productcontent {
+  font-family:"Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+  padding:30px;
+  margin:20px 0px 20px 0px;
+}
+
+.productcontent h2 {
+  font-weight:400;
+  font-size:2.6em;
+  color:black;
+}
+
+.productcontent p {
+  font-size:1.3em;
+  color:#46484d;
+}
+
+.royalbg {
+  background:#141E30;
+  background:linear-gradient(to right, #243B55, #141E30);
+}
+
+.textorangered {
+  background:linear-gradient(301deg, #EF7C00 0%, #EF4A38 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.textpurplepink {
+  background:linear-gradient(301deg, #EC0C8C 0%, #623895 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.textbluetur {
+  background:linear-gradient(301deg, #5abe87 0%, #003D7C 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.textpinktur {
+  background:linear-gradient(301deg, #2ccca7 0%, #ec0c8c 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.textclearsky {
+  background:#005c97;
+  background:-webkit-linear-gradient(to left, #005c97, #363795);
+  background:linear-gradient(to left, #005c97, #363795);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.clearsky {
+  background:linear-gradient(to left, #005c97, #363795);
+}
+
+.contentcardbox {
+  padding:20px;
+  height:100%;
+}
+
+.productcontent h3 {
+  font-weight:400;
+  font-size:1.6em;
+  color:black;
+}
+
+.minitext {
+  font-size:1.0em;
+  font-weight:300;
+  color:#46484d;
+}
+
+.link-1 {
+  color:#EC0C8C;
+  background-color:#fdddef;
+}
+
+.link-1:hover {
+  border-bottom:2px solid #EC0C8C;
+  background-color:#fff;
+}
+
+.link-2 {
+  color:#378b5d;
+  background-color:#b6e2ca;
+}
+
+.link-2:hover {
+  border-bottom:2px solid #378b5d;
+  background-color:#fff;
+}
+
+.link-3 {
+  color:#003D7C;
+  background-color:#d1e8ff;
+}
+
+.link-3:hover {
+  border-bottom:2px solid #003D7C;
+  background-color:#fff;
 }
 
