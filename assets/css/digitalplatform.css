@@ -1,3 +1,17 @@
+html {
+  font-family:"Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+  font-size:17px;
+}
+
+.row-flex {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.row-flex:before, .row-flex:after {
+  width:0;
+}
+
 .header-blue {
   background:linear-gradient(135deg, #172a74, #21a9af);
   background-color:#184e8e;
@@ -114,5 +128,95 @@
   align-items:center;
   justify-content:center;
   flex-direction:row;
+}
+
+.product {
+  padding:40px 0px;
+  font-family:"Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+}
+
+.product h1 {
+  font-size:40px;
+  font-weight:200;
+  line-height:1.1;
+}
+
+.aceit {
+  box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition:all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.aceit:hover {
+  box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.productfeature {
+  font-family:"Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+  padding:30px;
+}
+
+.productfeature h1 {
+  font-weight:300;
+  font-size:3em;
+  color:black;
+}
+
+.productfeature p {
+  font-size:1.3em;
+  color:#46484d;
+}
+
+.card {
+  background:#fff;
+  border-radius:5px;
+  display:inline-block;
+  position:relative;
+}
+
+.card-1 {
+  box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition:all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-2 {
+  box-shadow:5px 7px 35px -6px rgba(0,0,0,0.19);
+  transition:all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-2:hover {
+  box-shadow:5px 7px 35px -6px rgba(0,0,0,0.55);
+}
+
+.productoverview {
+  font-family:"Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+  padding:20px;
+  margin-bottom:70px;
+}
+
+.overviewbox {
+  padding:30px;
+  height:100%;
+}
+
+.overviewbox h1 {
+  color:#FEB721;
+  font-weight:400;
+  line-height:0.7;
+  font-size:5em;
+}
+
+.overviewbox h2 {
+  color:#FEB721;
+  font-weight:400;
+  font-size:1.4em;
+}
+
+.overviewbox p {
+  font-weight:200;
+  font-size:1.8em;
 }
 
