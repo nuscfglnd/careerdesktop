@@ -382,12 +382,12 @@ a:active {
 .overviewbox h2 {
   color:#FEB721;
   font-weight:400;
-  font-size:1.4em;
+  font-size:2em;
 }
 
 .overviewbox p {
   font-weight:200;
-  font-size:1.8em;
+  font-size:1.2em;
 }
 
 .productcontent {
@@ -508,7 +508,7 @@ a:active {
 
 .edu-plan {
   border-bottom:1px solid #e1f1ff;
-  padding:25px;
+  margin:25px;
 }
 
 .edu-plan:last-child {
@@ -519,6 +519,15 @@ a:active {
   .edu-plan {
     border-bottom:none;
     border-right:1px solid #e1f1ff;
+    flex-basis:100%;
+    padding:25px 50px;
+    text-align:center;
+  }
+}
+
+@media (max-width: 820px) {
+  .edu-plan {
+    border-bottom:none;
     flex-basis:100%;
     padding:25px 50px;
     text-align:center;
