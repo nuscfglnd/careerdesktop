@@ -320,7 +320,7 @@ a:active {
 .productfeature {
   font-family:"Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   padding:30px;
-  margin-bottom:30px;
+  margin-bottom:0px;
 }
 
 .productfeature h1 {
@@ -392,8 +392,8 @@ a:active {
 
 .productcontent {
   font-family:"Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
-  padding:30px;
-  margin:20px 0px 20px 0px;
+  padding:5px 20px;
+  margin:0px 0px 0px 0px;
 }
 
 .productcontent h2 {
