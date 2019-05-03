@@ -529,8 +529,9 @@ a:active {
   .edu-plan {
     border-bottom:none;
     flex-basis:100%;
-    padding:25px 50px;
+    padding:25px 10px;
     text-align:center;
+    margin:0;
   }
 }
 
