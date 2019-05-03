@@ -62,6 +62,10 @@ a:active {
   font-size:13px;
   letter-spacing:0.4px;
   line-height:1;
+  display:block;
+  width:100%;
+  box-sizing:border-box;
+  white-space:normal;
 }
 
 .godigital .buttons .btn:hover {
@@ -81,6 +85,13 @@ a:active {
   padding:14px 24px;
   background:transparent;
   transition:background-color 0.25s;
+}
+
+@media (max-width: 606px) {
+  .godigital .buttons .btn {
+    display:block;
+    margin:0.4em auto;
+  }
 }
 
 .read-more {
