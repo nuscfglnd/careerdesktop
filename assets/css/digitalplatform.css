@@ -62,8 +62,6 @@ a:active {
   font-size:13px;
   letter-spacing:0.4px;
   line-height:1;
-  display:block;
-  width:100%;
   box-sizing:border-box;
   white-space:normal;
 }
@@ -87,11 +85,9 @@ a:active {
   transition:background-color 0.25s;
 }
 
-@media (max-width: 606px) {
-  .godigital .buttons .btn {
-    display:block;
-    margin:0.4em auto;
-  }
+.btnblock {
+  display:block;
+  width:100%;
 }
 
 .read-more {
