@@ -261,7 +261,7 @@ a:active {
 }
 
 .product h1 {
-  font-size:40px;
+  font-size:50px;
   font-weight:200;
   line-height:1.1;
 }
@@ -363,7 +363,7 @@ a:active {
 .productoverview {
   font-family:"Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   padding:20px;
-  margin-bottom:70px;
+  margin-bottom:10px;
 }
 
 .overviewbox {
@@ -397,8 +397,13 @@ a:active {
 }
 
 .productcontent h2 {
-  font-weight:400;
+  font-weight:300;
   font-size:2.6em;
+  color:black;
+}
+
+.productcontent h3 {
+  font-weight:200;
   color:black;
 }
 
@@ -674,5 +679,10 @@ a:active {
 .apa p {
   text-indent:-1.5em;
   padding-left:1.5em;
+}
+
+.jumbotron h2 {
+  margin-bottom:20px;
+  font-size:40px;
 }
 
