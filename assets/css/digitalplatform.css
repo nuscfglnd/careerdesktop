@@ -629,22 +629,22 @@ hr.style1 {
   }
 }
 
-#accordion {
+#accordion, #accordion2 {
   font-family:"Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
 }
 
-#accordion .panel {
+#accordion .panel, #accordion2 .panel {
   border:none;
   box-shadow:none;
   border-radius:0;
   margin-bottom:15px;
 }
 
-#accordion .panel-heading {
+#accordion .panel-heading, #accordion2 .panel-heading {
   padding:0;
 }
 
-#accordion .panel-title a {
+#accordion .panel-title a, #accordion2 .panel-title a {
   display:block;
   color:#000;
   background:#fff;
@@ -657,12 +657,12 @@ hr.style1 {
   font-size:1.3em;
 }
 
-#accordion .panel-title a.collapsed {
+#accordion .panel-title a.collapsed, #accordion2 .panel-title a.collapsed {
   border-bottom-color:#ddd;
   color:#888;
 }
 
-#accordion .panel-title a:before {
+#accordion .panel-title a:before, #accordion2 .panel-title a:before {
   content:"\f106";
   font-family:"Font Awesome 5 Free";
   font-weight:900;
@@ -673,22 +673,22 @@ hr.style1 {
   transition:all 0.3s ease 0s;
 }
 
-#accordion .panel-title a.collapsed:before {
+#accordion .panel-title a.collapsed:before, #accordion2 .panel-title a.collapsed:before {
   content:"\f107";
 }
 
-#accordion .panel-body {
+#accordion .panel-body, #accordion2 .panel-body {
   background:#f6f6f6;
   border:none;
   padding:14px 20px;
   color:#757575;
 }
 
-#accordion p {
+#accordion p, #accordion2 p {
   font-size:1.3em;
 }
 
-#accordion ol, ul {
+#accordion ol, ul, #accordion2 ol, ul {
   font-size:1.2em;
 }
 
@@ -737,5 +737,34 @@ hr.style1 {
 .apa p {
   text-indent:-1.5em;
   padding-left:1.5em;
+}
+
+.showmebtn {
+  height:50px;
+  width:200px;
+  background:linear-gradient(100deg, #7952af, #008cff);
+  border:0;
+  border-radius:50px;
+  font-size:1.1em;
+  box-shadow:0 4px 12px 0 rgba(152, 160, 180, 10);
+  color:white;
+  z-index:-2;
+}
+
+.fill-one {
+  position:absolute;
+  background-image:linear-gradient(100deg, #7952af, #008cff);
+  height:70px;
+  width:420px;
+  border-radius:5px;
+  margin:-40px 0 0 -140px;
+  z-index:-1;
+  transition:all 0.4s ease;
+}
+
+.cfgbtncontainer-one:hover .fill-one {
+  -webkit-transform:translateX(100px);
+  -moz-transform:translateX(100px);
+  transform:translateX(100px);
 }
 
