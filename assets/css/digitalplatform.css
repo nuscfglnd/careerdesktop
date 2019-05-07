@@ -133,6 +133,15 @@ a:active {
   visibility:hidden;
 }
 
+.mainhead {
+  background-color:#f7f7f7;
+}
+
+hr.style1 {
+  border-top:1px solid #e8e8e8;
+  width:80%;
+}
+
 .tooltiptext {
   border-bottom:1px dotted black;
 }
@@ -310,7 +319,7 @@ a:active {
 }
 
 .photo-gallery .photos {
-  padding-bottom:20px;
+  padding-bottom:10px;
 }
 
 .photo-gallery .item {
@@ -319,8 +328,6 @@ a:active {
 
 .productfeature {
   font-family:"Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
-  padding:30px;
-  margin-bottom:0px;
 }
 
 .productfeature h1 {
@@ -331,7 +338,25 @@ a:active {
 
 .productfeature p {
   font-size:1.3em;
-  color:#46484d;
+  color:#333333;
+}
+
+.producttopic {
+  font-family:"Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+}
+
+.producttopic h1 {
+  font-weight:300;
+  font-size:2.5em;
+  color:black;
+  text-transform:uppercase;
+}
+
+.producttopic p {
+  font-size:1.3em;
+  color:#333333;
+  padding:5px;
+  margin:5px 0px 5px;
 }
 
 .card {
@@ -402,14 +427,33 @@ a:active {
   color:black;
 }
 
+.productcontent h2.eg {
+  font-weight:300;
+  font-size:2.0em;
+  color:black;
+  text-align:center;
+}
+
 .productcontent h3 {
   font-weight:200;
   color:black;
+  font-size:1.6em;
+}
+
+.productcontent h3.frame {
+  font-weight:400;
+  color:black;
+  font-size:2.4em;
 }
 
 .productcontent p {
   font-size:1.3em;
-  color:#46484d;
+  color:#757575;
+}
+
+.productcontent ul {
+  font-size:1.2em;
+  color:#757575;
 }
 
 .royalbg {
@@ -418,25 +462,25 @@ a:active {
 }
 
 .textorangered {
-  background:linear-gradient(301deg, #EF7C00 0%, #EF4A38 100%);
+  background:linear-gradient(130deg, #fbad1a 0%, #ea0647 100%);
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
 }
 
 .textpurplepink {
-  background:linear-gradient(301deg, #EC0C8C 0%, #623895 100%);
+  background:linear-gradient(130deg, #ea0647 0%, #7952af 100%);
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
 }
 
-.textbluetur {
-  background:linear-gradient(301deg, #5abe87 0%, #003D7C 100%);
+.textbluepurple {
+  background:linear-gradient(130deg, #7952af 0%, #008cff 100%);
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
 }
 
-.textpinktur {
-  background:linear-gradient(301deg, #2ccca7 0%, #ec0c8c 100%);
+.textpurpletur {
+  background:linear-gradient(130deg, #008cff 0%, #55cfd8 100%);
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
 }
@@ -471,32 +515,32 @@ a:active {
 }
 
 .link-1 {
-  color:#EC0C8C;
-  background-color:#fdddef;
+  color:#757575;
+  background-color:#cce8ff;
 }
 
 .link-1:hover {
-  border-bottom:2px solid #EC0C8C;
+  border-bottom:2px solid #cce8ff;
   background-color:#fff;
 }
 
 .link-2 {
-  color:#378b5d;
-  background-color:#b6e2ca;
+  color:#757575;
+  background-color:#fcd58c;
 }
 
 .link-2:hover {
-  border-bottom:2px solid #378b5d;
+  border-bottom:2px solid #fcd58c;
   background-color:#fff;
 }
 
 .link-3 {
-  color:#003D7C;
-  background-color:#d1e8ff;
+  color:#757575;
+  background-color:#e4dcef;
 }
 
 .link-3:hover {
-  border-bottom:2px solid #003D7C;
+  border-bottom:2px solid #e4dcef;
   background-color:#fff;
 }
 
@@ -512,8 +556,8 @@ a:active {
 }
 
 .edu-plan {
-  border-bottom:1px solid #e1f1ff;
-  margin:25px;
+  border-bottom:0px solid #e1f1ff;
+  text-align:center;
 }
 
 .edu-plan:last-child {
@@ -523,7 +567,7 @@ a:active {
 @media (min-width: 900px) {
   .edu-plan {
     border-bottom:none;
-    border-right:1px solid #e1f1ff;
+    border-right:1px solid #e8e8e8;
     flex-basis:100%;
     padding:25px 50px;
     text-align:center;
@@ -553,7 +597,7 @@ a:active {
 }
 
 .edu-features-item {
-  border-top:1px solid #e1f1ff;
+  border-top:1px solid #e8e8e8;
   line-height:1.5;
   padding:15px 0;
   min-height:140px;
@@ -561,7 +605,7 @@ a:active {
 }
 
 .edu-features-item:last-child {
-  border-bottom:1px solid #e1f1ff;
+  border-bottom:1px solid #e8e8e8;
 }
 
 @media (max-width: 600px) {
@@ -619,19 +663,18 @@ a:active {
 }
 
 #accordion .panel-body {
-  color:#8c8c8c;
   background:#f6f6f6;
   border:none;
   padding:14px 20px;
+  color:#757575;
 }
 
 #accordion p {
   font-size:1.3em;
-  color:#46484d;
 }
 
 #accordion ol, ul {
-  color:#46484d;
+  font-size:1.2em;
 }
 
 .stackimage {
@@ -679,10 +722,5 @@ a:active {
 .apa p {
   text-indent:-1.5em;
   padding-left:1.5em;
-}
-
-.jumbotron h2 {
-  margin-bottom:20px;
-  font-size:40px;
 }
 
