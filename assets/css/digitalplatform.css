@@ -467,10 +467,18 @@ hr.style1 {
   -webkit-text-fill-color:transparent;
 }
 
+.bgorangered {
+  background:linear-gradient(to left, #ea0647, #fbad1a);
+}
+
 .textpurplepink {
   background:linear-gradient(130deg, #ea0647 0%, #7952af 100%);
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
+}
+
+.bgpurplepink {
+  background:linear-gradient(to left, #7952af, #ea0647);
 }
 
 .textbluepurple {
@@ -479,10 +487,18 @@ hr.style1 {
   -webkit-text-fill-color:transparent;
 }
 
+.bgbluepurple {
+  background:linear-gradient(to left, #008cff, #7952af);
+}
+
 .textpurpletur {
   background:linear-gradient(130deg, #008cff 0%, #55cfd8 100%);
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
+}
+
+.bgpurpletur {
+  background:linear-gradient(to left, #55cfd8, #008cff);
 }
 
 .textclearsky {
