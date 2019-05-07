@@ -481,7 +481,7 @@ hr.style1 {
 }
 
 .textbluepurple {
-  background:linear-gradient(130deg, #7952af 0%, #008cff 100%);
+  background:linear-gradient(100deg, #7952af 0%, #008cff 100%);
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
 }
